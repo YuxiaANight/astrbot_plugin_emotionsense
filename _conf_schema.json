@@ -1,0 +1,22 @@
+{
+    "emotion_prompt": {
+        "description": "情绪分析提示词",
+        "type": "text",
+        "default": "分析以下文本的情绪，只返回JSON格式：{\"emotion\": \"喜悦/悲伤/愤怒/焦虑/平静/困惑\", \"score\": 0.0-1.0}"
+    },
+    "negative_threshold": {
+        "description": "负面情绪触发阈值",
+        "type": "float",
+        "default": 0.6
+    },
+    "care_interval": {
+        "description": "主动关心间隔（单位：秒）",
+        "type": "int",
+        "default": 3600
+    },
+    "enable_care": {
+        "description": "启用主动关心",
+        "type": "bool",
+        "default": true
+    }
+}

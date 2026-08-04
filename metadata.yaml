@@ -1,0 +1,8 @@
+name: astrbot_plugin_emotionsense
+display_name: 小情绪
+version: 1.0.1
+description: 情绪感知插件，分析用户情绪并动态调整回复
+author: 雨下¹整晚²
+entry: main.py:EmotionSensePlugin
+repository: https://github.com//astrbot_plugin_emotionsense
+min_astrbot_version: 4.13.0
