@@ -1,9 +1,8 @@
 # EmotionSense - 情绪感知插件
 
-[Visitors](https://visitor-badge.laobi.icu/badge?page_id=YuxiaANight/astrbot_plugin_emotionsense)
-![Latest Version](https://img.shields.io/badge/LATEST VERSION-v4.13.0-7ec8e3?style=for-the-badge&labelColor=EDFFEC)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=YuxiaANight/astrbot_plugin_emotionsense)](https://visitor-badge.laobi.icu/badge?page_id=YuxiaANight/astrbot_plugin_emotionsense)
+![Latest Version](https://img.shields.io/badge/LATEST%20VERSION-v1.0.1-7ec8e3?style=for-the-badge&labelColor=EDFFEC)
 ![AstrBot Plugin](https://img.shields.io/badge/ASTRBOT-PLUGIN-ff69b4?style=for-the-badge&labelColor=EDFFEC)
-
 基于 AstrBot 的情绪感知插件，实时分析用户消息情绪，并在检测到负面情绪时主动给予关心，同时提供 WebUI 数据看板。
 
 ## 功能特性
