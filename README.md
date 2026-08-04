@@ -1,0 +1,2 @@
+# astrbotot_plugin_emotionsense
+astrbot
