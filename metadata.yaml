@@ -1,4 +1,4 @@
-name: astrbot_plugin_emotionsense
+name: astrbot_plugin_emotionsense_yx
 display_name: 小情绪
 version: 1.1.0
 description: 情绪感知插件，分析用户情绪并动态调整回复
