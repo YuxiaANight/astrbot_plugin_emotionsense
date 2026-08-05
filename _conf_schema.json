@@ -18,5 +18,20 @@
         "description": "启用主动关心",
         "type": "bool",
         "default": true
+    },
+    "enable_llm_emotion": {
+        "description": "启用 LLM 自身情绪",
+        "type": "bool",
+        "default": true
+    },
+    "no_reply_probability": {
+        "description": "LLM 处于懒惰/生气时不回复的概率（0-1）",
+        "type": "float",
+        "default": 0.05
+    },
+    "slow_reply_delay": {
+        "description": "LLM 处于伤心/烦躁时回复延迟的秒数",
+        "type": "float",
+        "default": 4.5
     }
 }
