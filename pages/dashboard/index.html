@@ -10,6 +10,7 @@
 <body>
     <div id="app">
         <h1>情绪感知面板</h1>
+
         <div id="stats">
             <div class="stat-card">
                 <span class="stat-label">总用户数</span>
@@ -20,11 +21,30 @@
                 <span class="stat-value" id="negativeCount">0</span>
             </div>
         </div>
+
+        <div class="section-title">机器人情绪</div>
+        <div id="llmCurrent" class="llm-card">
+            <div class="llm-emotion" id="llmEmotion">--</div>
+            <div class="llm-meta">
+                <span class="llm-score" id="llmScore">强度 --</span>
+                <span class="llm-time" id="llmTime">尚未产生情绪</span>
+            </div>
+        </div>
+
+        <div class="section-title">情绪变化状态</div>
+        <div id="llmHistoryWrap" class="history-wrap">
+            <ul id="llmHistory" class="history-list">
+                <li class="empty-history">暂无变化记录</li>
+            </ul>
+        </div>
+
         <div id="statusBar" class="status" hidden></div>
         <div id="controls">
             <button id="refreshBtn" type="button">刷新数据</button>
             <button id="clearBtn" class="danger" type="button">清除所有数据</button>
         </div>
+
+        <div class="section-title">用户情绪明细</div>
         <div id="tableWrap">
             <table>
                 <thead>

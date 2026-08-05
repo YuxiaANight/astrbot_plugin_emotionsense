@@ -28,10 +28,18 @@ h1 {
     letter-spacing: 0.3px;
 }
 
+.section-title {
+    color: #4a5a4a;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0 10px;
+    letter-spacing: 0.3px;
+}
+
 #stats {
     display: flex;
     gap: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 4px;
     flex-wrap: wrap;
 }
 
@@ -58,11 +66,112 @@ h1 {
     color: #2d3e2d;
 }
 
+.llm-card {
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 16px 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+}
+
+.llm-emotion {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2d3e2d;
+}
+
+.llm-meta {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: #7a8a7a;
+}
+
+.llm-score {
+    font-weight: 500;
+    color: #4a5a4a;
+}
+
+.history-wrap {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 8px 0;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+    max-height: 280px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.history-list {
+    list-style: none;
+    padding: 4px 16px;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 4px;
+    border-bottom: 1px solid #f5f0f0;
+    font-size: 14px;
+    color: #2d3e2d;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+
+.hi-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #cfd8cf;
+    flex-shrink: 0;
+}
+
+.history-item.pos .hi-dot { background: #FFC0D2; }
+.history-item.neutral .hi-dot { background: #cfd8cf; }
+.history-item.lazy .hi-dot { background: #b8c4d8; }
+.history-item.angry .hi-dot { background: #f5a8bd; }
+.history-item.sad .hi-dot { background: #9fb8d8; }
+.history-item.irritable .hi-dot { background: #e0b8d8; }
+
+.hi-emotion {
+    font-weight: 500;
+    min-width: 56px;
+}
+
+.hi-score {
+    color: #7a8a7a;
+    font-size: 13px;
+    min-width: 44px;
+}
+
+.hi-time {
+    color: #aabaaa;
+    font-size: 12px;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.empty-history {
+    list-style: none;
+    text-align: center;
+    color: #aabaaa;
+    padding: 28px 16px;
+    font-size: 14px;
+}
+
 .status {
     background: #FFFFFF;
     border-radius: 6px;
     padding: 10px 16px;
-    margin-bottom: 16px;
+    margin: 16px 0;
     font-size: 14px;
     color: #2d3e2d;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
@@ -76,7 +185,7 @@ h1 {
 #controls {
     display: flex;
     gap: 12px;
-    margin-bottom: 20px;
+    margin: 20px 0;
     flex-wrap: wrap;
 }
 
@@ -218,6 +327,33 @@ tr:last-child td {
 
     .stat-value {
         font-size: 22px;
+    }
+
+    .llm-card {
+        padding: 14px 16px;
+    }
+
+    .llm-emotion {
+        font-size: 22px;
+    }
+
+    .llm-meta {
+        gap: 12px;
+        font-size: 12px;
+    }
+
+    .history-item {
+        gap: 8px;
+        padding: 9px 2px;
+        font-size: 13px;
+    }
+
+    .hi-emotion {
+        min-width: 48px;
+    }
+
+    .hi-time {
+        font-size: 11px;
     }
 
     #controls {
