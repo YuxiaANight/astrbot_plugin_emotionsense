@@ -4,5 +4,5 @@ version: 1.1.0
 description: 情绪感知插件，分析用户情绪并动态调整回复
 author: 雨下¹整晚²
 entry: main.py:EmotionSensePlugin
-repo: https://github.com/YuxiaANight/astrbot_plugin_emotionsense/
+repo: https://github.com/YuxiaANight/astrbot_plugin_emotionsense_yx/
 astrbot_version: ">=4.26.0"
